@@ -1,7 +1,7 @@
 p {
-    font-size: 50px;
+    font-size: 35px;
     background: -webkit-gradient(linear, left top, left bottom, from(#2b59a7), to(#FF0000));
-    -webkit-background-clip: text;
+    -webkit-background-clip: background;
     -webkit-text-fill-color: transparent;
     font-family: sans-serif;
     background-color: white;
