@@ -11,7 +11,7 @@ p {
 
 .monTexte {
   writing-mode: vertical-rl;
-  color: black;
+  color: blue;
   float: right;
     font-size: 36px;
     text-align: center; 
