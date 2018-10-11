@@ -9,11 +9,32 @@ p {
     align-content: center;
 }
 
+.monTexte {
+  writing-mode: vertical-rl;
+  color: black;
+  float: right;
+    font-size: 36px;
+    text-align: center; 
+    font-family: Arial Narrow, sans-serif;
+}
+
+h2{
+  
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+    font-family: Arial Narrow, sans-serif;
+    color: black;
+    font-size-adjust: auto;
+    font-variant-position: sub;
+}
 h1{
-    font-family: sans-serif;
-    color: darkorange;
+    float: right;
+    margin-bottom: inherit;
     }
 
 body {
     background-color: whitesmoke; 
+    white-space: normal;
 }
