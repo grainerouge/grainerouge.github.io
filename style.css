@@ -1,45 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
 p {
-    font-size: 35px;
+    font-size: 20px;
     background: -webkit-gradient(linear, left top, left bottom, from(#2b59a7), to(#FF0000));
     -webkit-background-clip: background;
     -webkit-text-fill-color: transparent;
     font-family: sans-serif;
-    background-color: white;
     text-align: justify;
     align-content: center;
 }
 
+.nav{
+
+    float:right;
+    margin-top: 175px;
+}
+ul {
+
+ list-style-type:none;
+    float: left;
+ }
+li {
+ margin-left:2px;
+ float:left; /*pour IE*/
+ }
+ul li a {
+    font-family: Arial Narrow, sans-serif​;
+ display:flex;
+ float:left;   
+ width:50px;
+ background: -webkit-gradient(linear, left top, from(#2b59a7), to(#FF0000));
+ text-decoration-color: white;
+ color:black;
+    font-size: 20px;
+ text-align:center;
+ padding:5px;
+ border:2px solid;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#e31932 #2b59a7 #2b59a7 #DCDCDC;
+ }
+ul li a:hover {
+ background-color:#eaeaea;
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+ } 
+
 .monTexte {
-  writing-mode: vertical-rl;
-  color: blue;
-  float: right;
-    font-size: 36px;
+    float: left;
+    color: blue;
+    font-size: 20px;
     text-align: center; 
     font-family: Arial Narrow, sans-serif;
 }
 
-h2{
-  
-    margin: 0px;
-    padding: 0px;
-    padding-bottom: 0px;
-    text-align: left;
-    font-family: Arial Narrow, sans-serif;
-    color: black;
-    font-size-adjust: auto;
-    font-variant-position: sub;
-}
 h1{
-    float: right;
-    margin-top: 70px;
-    margin-right: -50px;
-    transform: rotate(90deg);
     }
 
 body {
     background-color: whitesmoke; 
-    white-space: normal;
+    white-space:normal;
 }
+
 .cc{
     object-position: center
 }
