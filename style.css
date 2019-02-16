@@ -58,16 +58,16 @@ a:hover{
     margin-left: 200px;
     width: 50%;
     font-family: 'GoudyText';
-    text-align: left;
-    font-size: 20px;
+    text-align: justify;
+    font-size: 38px;
 }
 
 #socials  {
     
     margin-top: 250px;
     font-family: 'WorkSans-Thin';
-    text-align: center;
-    font-size: 70px;
+    text-align: right;
+    font-size: 100px;
 }
 
 #visualsound {
